@@ -90,7 +90,7 @@ a #get-started {
     border-radius: 50px;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 #get-started:hover {
     background-color: #65e2d9;
@@ -249,6 +249,8 @@ button {
     height: 30px;
     border-radius: 20px;
     border: 1px solid white;
+    padding: 0px 20px;
+    box-sizing: border-box;
 }
 .seventh-container {
     width: 100%;
@@ -292,6 +294,13 @@ button {
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+h2 {
+    line-height: 30px;
+}
+p:not(.review .user-profile .user-details p) {
+    line-height: 25px;
+    box-sizing: border-box;
 }
 
 /* Media quesries for small devices */
